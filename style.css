@@ -25,7 +25,6 @@ li {
   padding-right: 10px;
 }
 
-/*section*/
 .container {
   display: flex;
   justify-content: center;
@@ -33,7 +32,7 @@ li {
   flex-direction: column;
   background-image: url("images/header-illsutration-mobile@2x.png");
   background-size: 100%;
-  background-position: 0px;
+  background-position: 0;
   background-repeat: no-repeat;
   height: 100%;
   padding-top: 30px;
