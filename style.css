@@ -91,3 +91,19 @@ ul {
   width: 40px;
   height: 40px;
 }
+
+/*About*/
+.Card-1 {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+}
+
+.item-2 {
+  padding-inline: 50px;
+}
+
+.container-2 {
+  display: grid;
+  justify-content: center;
+}
