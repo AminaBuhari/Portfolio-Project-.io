@@ -1,5 +1,3 @@
-git ![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Portfolio-Project-
 
     This project is a Html and Css Project
