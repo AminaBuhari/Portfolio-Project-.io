@@ -119,6 +119,7 @@ ul {
   justify-content: center;
   border-radius: 5px;
   margin-left: 20px;
+  margin-top: 10px;
   margin-right: 10px;
   border: 1px #d0d9d4;
   border-style: solid;
@@ -141,7 +142,6 @@ ul {
 .header-3 {
   font-family: "Inter", sans-serif;
   font-size: 20px;
-  font-weight: 1000px;
   color: #3a4a42;
   line-height: 32px;
   font-style: Semi Bold;
@@ -185,4 +185,36 @@ ul {
   border-radius: 5px;
   border-style: none;
   color: white;
+}
+
+.container-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-5 {
+  font-size: 25px;
+  font-family: "Inter", serif;
+  color: #172b4d;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+
+.paragraph-2 {
+  color: #42526e;
+  font-size: 15px;
+  font-family: "Inter", serif;
+  margin: 10px 20px;
+}
+
+.button-3h {
+  width: 150px;
+  height: 48px;
+  background-color: #36b37e;
+  border-style: none;
+  color: white;
+  border-radius: 5px;
 }
