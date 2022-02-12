@@ -194,6 +194,12 @@ ul {
   justify-content: center;
   align-items: center;
 }
+#container-5 {
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
+  background-image: url("/images/Mask2.svg"), url("/images/mask3.svg");
+  margin: 30px 0;
+}
 
 .header-5 {
   font-size: 25px;
