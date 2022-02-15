@@ -120,25 +120,20 @@ ul {
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin: 20px 0 auto;
     border: 1px #d0d9d4;
     border-style: solid;
-    width: 260px;
+    width: 327px;
     height: 380px;
 }
 
 .container-4 {
     display: flex;
-    margin-top: 198px;
+    margin: 200px 1px 1px;
     flex-direction: column;
     background-color: white;
     border-radius: 5px;
-    margin-right: 1px;
-    margin-left: 1px;
-    margin-bottom: 10px;
-    width: 254px;
+    width: 100%;
     height: 178px;
 }
 
@@ -147,6 +142,7 @@ ul {
     font-size: 20px;
     color: #3a4a42;
     line-height: 32px;
+    padding: 0 20px;
 }
 
 .item-1 {
@@ -158,7 +154,7 @@ ul {
 .button-1 {
     display: flex;
     margin: -10px 0 0 0;
-    padding: 0;
+    padding: 0 30px;
     justify-content: space-around;
 }
 
@@ -218,7 +214,7 @@ ul {
     color: #42526e;
     font-size: 15px;
     font-family: "Inter", serif;
-    margin: 30px 20px 20px;
+    margin: 39px 20px 20px;
 }
 
 .button-3h {
@@ -313,7 +309,7 @@ ul {
 #contact-form {
     background-image: url(./images/illustration-contact-form.svg);
     background-repeat: no-repeat;
-    background-position-y: 732px;
+    background-position-y: 612px;
     background-position-x: 339px;
     display: flex;
     flex-direction: column;
@@ -322,7 +318,7 @@ ul {
 
 #header-6 {
     width: 70%;
-    font-size: 40px;
+    font-size: 33px;
     text-align: center;
     color: #172B4D;
     ;
@@ -355,7 +351,8 @@ form {
     color: #091E42;
     font-size: 15px;
     font-family: "Inter", serif;
-    ;
+    border: solid 1px #36b37e;
+    box-sizing: border-box;
 }
 
 .button-6h {
@@ -368,6 +365,13 @@ form {
     padding: 12px;
     font-size: 12px;
     margin: 12px;
+}
+
+.paragraph-6 {
+    font-family: "Inter" serif;
+    font-size: 20px;
+    color: #42526E;
+    margin-top: -10px;
 }
 
 #blank_bottom {
