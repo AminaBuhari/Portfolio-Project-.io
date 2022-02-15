@@ -310,12 +310,60 @@ ul {
 }
 
 #contact-form {
+    background-image: url(./images/illustration-contact-form.svg);
+    background-repeat: no-repeat;
+    background-position-y: 732px;
+    background-position-x: 339px;
     display: flex;
-    align-content: center;
-    margin: auto;
     flex-direction: column;
+    align-items: center;
 }
 
-.header-6 {
+#header-6 {
+  width: 70%;
+  font-size: 40px;
+  text-align: center;
+}
+
+form {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-input {
+    border: 1px solid #D0D9D4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+    width: 327px;
+    margin: 5px;
+}
+
+#text-area {
+    height: 114px;
+    width: 327px;
+    border-radius: 4px;
+    margin: 12px;
+}
+
+.button-6h {
+    width: 110px;
+    height: 49px;
+    background-color: #36b37e;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 12px;
+    margin: 12px;
+}
+
+#blank_bottom {
+    height: 250px;
+}
+
+#indicator_last {
+    padding-bottom: 8px;
 }
