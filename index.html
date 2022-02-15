@@ -292,7 +292,7 @@
                         <li class="list">
                             <button class="button-4h">Codepen</button>
                         </li>
-                        <li class="list"><button class="button-4h">Gitlab</button> g</li>
+                        <li class="list"><button class="button-4h">Gitlab</button></li>
                         <li class="list">
                             <button class="button-4h">Terminal</button>
                         </li>
@@ -309,9 +309,9 @@
         </div>
         <div>
             <form action="https://formspree.io/f/xvolakyp" method="POST">
-                <input class="form-input" type="fullname" name="fullname" placeholder="Full name" />
-                <input class="form-input" type="email" name="email" placeholder="Email address" />
-                <textarea id="text-area" name="message" placeholder="">
+                <input class="form-input" type="name" name="fullname" placeholder="Full name" required maxlength="30" />
+                <input class="form-input" type="email" name="email" placeholder="Email address" required />
+                <textarea id="text-area" name="message" required maxlength="500">
 Enter text here</textarea
           >
           <button class="button-3h" type="submit">Get in touch</button>
