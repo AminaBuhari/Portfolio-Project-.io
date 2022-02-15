@@ -4,8 +4,7 @@
 }
 
 .menu-bar {
-    /* display: block; */
-    display: flex;
+    display: block;
     margin: 0;
     padding: 15px 0;
     justify-content: space-between;
@@ -17,13 +16,12 @@
     font-weight: 600;
     text-decoration: none;
     color: #172b4d;
-    /* float: left; */
 }
 
 .menu-icon1 {
     padding-right: 20px;
     color: #172b4d;
-    /* float: right; */
+    float: right;
 }
 
 body {
@@ -309,4 +307,15 @@ ul {
 .section-3 {
     display: grid;
     justify-content: center;
+}
+
+#contact-form {
+    display: flex;
+    align-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.header-6 {
+    display: flex;
 }
