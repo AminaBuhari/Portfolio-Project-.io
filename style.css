@@ -130,12 +130,12 @@ ul {
 
 .container-4 {
   display: flex;
-  margin: 200px 1px 1px;
+  margin: 178px 1px 1px;
   flex-direction: column;
   background-color: white;
   border-radius: 5px;
   width: 100%;
-  height: 178px;
+  height: 200px;
 }
 
 .header-3 {
@@ -160,13 +160,14 @@ ul {
 }
 
 .button-1h {
-  font-size: 9px;
+  font-size: 12px;
   font-family: "Inter", serif;
   padding: 5px 8px;
   font-weight: bold;
   color: #3a4a42;
   border-style: none;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 .buttons-2 {
@@ -177,13 +178,23 @@ ul {
 }
 
 .button-2h {
-  height: 35px;
-  width: 95px;
+  height: 48px;
+  width: 122px;
   background-color: #36b37e;
   border-radius: 5px;
   border-style: none;
   color: white;
-  font-size: 12px;
+  font-size: 17px;
+}
+
+.button-2h:hover {
+  background-color: #36b37f;
+  box-shadow: 0 8px 15px rgba(54, 179, 127, 0.24);
+}
+
+.button-2h:focus {
+  background-color: #008552;
+  transform: translateY(2px);
 }
 
 .container-5 {
@@ -219,15 +230,26 @@ ul {
 }
 
 .button-3h {
-  width: 110px;
-  height: 49px;
-  background-color: #36b37e;
+  width: 159px;
+  height: 48px;
+  background-color: #36b37f;
   border-style: none;
-  color: white;
+  color: #fff;
   border-radius: 5px;
   padding: 12px;
-  font-size: 12px;
+  font-size: 17px;
   margin-bottom: 30px;
+  text-align: center;
+}
+
+.button-3h:hover {
+  background-color: #36b37f;
+  box-shadow: 0 8px 15px rgba(54, 179, 127, 0.24);
+}
+
+.button-3h:focus {
+  background-color: #008552;
+  transform: translateY(2px);
 }
 
 .about {
@@ -251,7 +273,9 @@ ul {
   background-color: #ebf0ee;
   border-radius: 5px;
   max-width: 327px;
-  height: 250px;
+  height: 326px;
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 
 .image-1 {
@@ -261,8 +285,8 @@ ul {
 }
 
 .image-container {
-  height: 900px;
-  width: 250px;
+  height: 1000px;
+  width: 331px;
 }
 
 .paragraph-3 {
@@ -281,7 +305,7 @@ ul {
 }
 
 .button-4h {
-  font-size: 9px;
+  font-size: 11px;
   font-family: "Inter", serif;
   padding: 5px 8px;
   font-weight: bold;
@@ -289,6 +313,7 @@ ul {
   background-color: white;
   border-style: none;
   border-radius: 5px;
+  height: 32px;
 }
 
 .button-5 {
@@ -300,6 +325,7 @@ ul {
   margin-right: 10px;
   justify-content: center;
   gap: 5px;
+  color: #36b37e;
 }
 
 .section-3 {
@@ -318,10 +344,12 @@ ul {
 }
 
 #header-6 {
-  width: 70%;
-  font-size: 33px;
+  width: 85%;
+  font-size: 35px;
   text-align: center;
   color: #172b4d;
+  font-weight: bold;
+  font-family: "Inter", serif;
 }
 
 form {
@@ -365,6 +393,16 @@ form {
   padding: 12px;
   font-size: 12px;
   margin: 12px;
+}
+
+.button-6h:hover {
+  background-color: #36b37f;
+  box-shadow: 0 8px 15px rgba(54, 179, 127, 0.24);
+}
+
+.button-6h:focus {
+  background-color: #008552;
+  transform: translateY(2px);
 }
 
 .paragraph-6 {
