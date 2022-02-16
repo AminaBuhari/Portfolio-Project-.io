@@ -15,6 +15,12 @@ This project is a Html and Css Project
 - Twitter: [@twitterhandle](https://twitter.com/AminaBuhari)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/AminaBuhari)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/RaoAkif)
+- Twitter: [@twitterhandle](https://twitter.com/RaoAkif)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/RaoAkif)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
