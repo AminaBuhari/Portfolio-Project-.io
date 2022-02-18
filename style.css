@@ -600,3 +600,9 @@ form {
         width: 100vw;
     }
 }
+
+@media (min-width: 752px) {
+.icons {
+    transform: rotate(180deg);
+}
+}
