@@ -7,6 +7,10 @@ This project is a Html and Css Project
 
 - Html and Css
 
+# Live demo
+
+[Live demo](https://aminabuhari.github.io/Portfolio-Project-.io/)
+
 ## Authors
 
 👤 **Author1**
@@ -14,12 +18,6 @@ This project is a Html and Css Project
 - GitHub: [@githubhandle](https://github.com/AminaBuhari)
 - Twitter: [@twitterhandle](https://twitter.com/AminaBuhari)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/AminaBuhari)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/RaoAkif)
-- Twitter: [@twitterhandle](https://twitter.com/RaoAkif)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/RaoAkif)
 
 ## 🤝 Contributing
 
