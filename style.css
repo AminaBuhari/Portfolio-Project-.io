@@ -455,6 +455,10 @@ form {
 
 #blank_bottom {
     height: 250px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
 }
 
 #indicator_last {
