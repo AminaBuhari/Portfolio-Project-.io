@@ -5,16 +5,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
+    <title>Amina Portfolio Project</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-29VQ5BWQNZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-29VQ5BWQNZ");
+    </script>
 </head>
 
 <body>
     <header>
         <nav class="menu-bar">
             <a class="menu-icon" href="">Welcome</a>
-            <a class="menu-icon1" href=""><i class="fas fa-bars"></i></a>
+            <a class="menu-icon1" title="hamburger" href=""><i class="fas fa-bars"></i
+        ></a>
         </nav>
         <ul class="nav-bar-list">
             <li><a class="nav-list" href="#">Portfolio</a></li>
@@ -344,8 +357,9 @@
             <div>
                 <p class="paragraph-6">myemailhere@email.com</p>
             </div>
-            <div id="blank_bottom"></div>
-            <img id="indicator_last" src="./images/indicator_last.svg" alt="last indicator" />
+            <div id="blank_bottom">
+                <img id="indicator_last" src="./images/indicator_last.svg" alt="last indicator" />
+            </div>
         </div>
     </footer>
 </body>
