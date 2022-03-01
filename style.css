@@ -1,12 +1,8 @@
 @import url("http://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
-#hide{
-    display: none;
-}
-
 .menu {
     position: fixed;
     z-index: 100;
@@ -14,33 +10,23 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
-    color: #172b4d;
+    color: #172B4D;
 }
-
-#menu-nav {
+.menu-nav {
     display: flex;
     margin: 0;
     padding: 15px 0;
     justify-content: space-between;
 }
-
+.mobile-menu {
+    display: block;
+}
 .nav-bar-list {
     display: none;
 }
-
-.closeIcon {
-    display: none;
-}
-
-.showMenu {
-    transform: translateY(0);
-  }
-  
-
 .nav-mobile{
     position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
+    display: none;
     top: 0;
     left: 0;
     right: 0;
@@ -49,16 +35,37 @@
     background: white;
     color: white;
     list-style: none;
-    padding-top: 4rem;
+    margin-top: 0;
 }
-
+.nav-mobile-active {
+    display: block;
+    height: 100%;
+    padding-top: 60px;
+    width: 100%;
+}
+.nav-mobile-list {
+    text-decoration: none;
+    color: #3A4A42;
+    font-family: 'Inter', serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.nav-mobile-list-parent {
+    padding: 15px;
+}
 .menu-icon {
     padding-left: 20px;
     font-family: "Inter", serif;
     font-weight: 600;
     text-decoration: none;
-    color: #172b4d;
+    color: #172B4D;
     display: flex;
+}
+.close-menu {
+    display: none;
+}
+.close-menu-active {
+    display: block;
 }
 
 body {
@@ -645,12 +652,9 @@ form {
         border-top: 1px solid #dfe1e6;
         width: 100vw;
     }
-    #menu-nav{
+    .menu-nav{
         display: none;
     }
-}
-.nav-mobile{
-    display: none;
 }
 
 
