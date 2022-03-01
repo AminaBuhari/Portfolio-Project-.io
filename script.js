@@ -17,4 +17,42 @@ navMobileList.forEach((elem)=>{
     elem.addEventListener('click', toggler);
 })
 
+const popup= [
+    {
+    header: 'Multi-Post Stories Gain+Glory',
+    languages: ["Ruby on rails", "css", "javascript","Html"],
+    live: ["https://aminabuhari.github.io/Portfolio-Project-.io/"],
+    source: ["https://github.com/AminaBuhari/Portfolio-Project-.io"],
+}
 
+];
+
+const newContainer = document.getElementsByClassName("first-class");
+newContainer.innerHTML = `
+<div class="container-3">
+<div class="container-4">
+  <div class="container-5">
+    <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
+  </div>
+  <div>
+    <ul class="button-1">
+      <li class="list">
+        <button class="button-1h">Ruby on rails</button>
+      </li>
+      <li class="list">
+        <button class="button-1h">css</button>
+      </li>
+      <li class="list">
+        <button class="button-1h">Javascript</button>
+      </li>
+      <li class="list">
+        <button class="button-1h">html</button>
+      </li>
+    </ul>
+  </div>
+  <div class="buttons-2">
+    <button class="button-2h">See Project</button>
+  </div>
+</div>
+
+`;
