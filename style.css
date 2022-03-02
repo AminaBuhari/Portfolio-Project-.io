@@ -572,11 +572,13 @@ form {
 }
 
 .project-image {
-  height: 350px;
+  height: auto;
+  width: 100%;
 }
 
 .pop-heading {
   display: flex;
+  width: 80%;
   justify-content: space-between;
   align-items: flex-start;
   padding: 8px 0;

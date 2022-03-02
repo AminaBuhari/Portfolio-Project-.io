@@ -1,3 +1,5 @@
+/* MOBILE MENU */
+
 const navbar = document.querySelector('.menu-nav');
 const openbtn = document.querySelector('.hamburger-menu');
 const closebtn = document.querySelector('.close-menu');
@@ -16,6 +18,8 @@ toggleBtn.addEventListener('click', toggler);
 navMobileList.forEach((elem) => {
   elem.addEventListener('click', toggler);
 })
+
+/* POPUP CARDS */
 
 const projects = [
   {
