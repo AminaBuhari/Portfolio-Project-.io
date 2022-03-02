@@ -515,6 +515,38 @@ form {
   padding-bottom: 8px;
 }
 
+.pop{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+.button-pop{
+    display:flex;
+    gap: 10px;
+    
+}
+.paragraph-pop{
+    color: #172B4D;
+    font-family: "Inter", serif;
+    font-size: 16px;
+
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:80%;
+}
+.pop-button{
+    display: flex;
+    gap: 10px;
+}
+
+#desktop-popup{
+    display: none;
+}
+
 @media (min-width: 992px) {
   .nav-bar-list {
     display: flex;
@@ -697,4 +729,12 @@ form {
   .menu-nav {
     display: none;
   }
+  .pop{
+      display: none;
+  }
+
+  #desktop-popup{
+      display: block;
+  }
+
 }
