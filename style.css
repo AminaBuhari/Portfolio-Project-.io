@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  margin: 0;
+}
+
 .menu {
   position: fixed;
   z-index: 100;
@@ -292,7 +296,7 @@ ul {
 
 .paragraph-2 {
   color: #42526e;
-  font-size: 15px;
+  font-size: 12px;
   font-family: "Inter", serif;
   margin: 39px 20px 20px;
 }
@@ -515,6 +519,147 @@ form {
   padding-bottom: 8px;
 }
 
+.pop {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.button-pop {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.paragraph-pop {
+  color: #172b4d;
+  font-family: "Inter", serif;
+  font-size: 16px;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+}
+
+.pop-button {
+  display: flex;
+  gap: 10px;
+}
+
+.button-pop4 {
+  font-size: 11px;
+  font-family: "Inter", serif;
+  padding: 5px 8px;
+  font-weight: bold;
+  color: black;
+  background-color: #ebf0ee;
+  border-style: none;
+  border-radius: 5px;
+  height: 32px;
+  margin-top: -5px;
+}
+
+.button-pop5 {
+  display: none;
+}
+
+#desk-popup {
+  background-color: rgb(229 229 229 / 90%);
+  position: fixed;
+  padding: 32px 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 150;
+  margin-top: 0;
+}
+
+#desktop-popup {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  margin: -18px 0;
+  border-radius: 5px;
+
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 28px;
+}
+
+.project-image {
+  height: 120px;
+  width: 100%;
+  margin: -10px 0 -3px;
+}
+
+.pop-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8px 0;
+}
+
+.pop-heading h4 {
+  width: 70%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+
+  /* line-height: 44px; */
+  margin: 0;
+}
+
+.button-mo1 {
+  width: 132px;
+  margin-top: 28px;
+  height: 40px;
+  background-color: #36b37f;
+  border-style: none;
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pop-button-3h {
+  display: flex;
+  gap: 10px;
+}
+
+.pop-button-2h {
+  display: none;
+}
+
+.pop-icon {
+  width: 13px;
+  margin-left: 5px;
+  margin-bottom: -2px;
+}
+
+.pop-close {
+  display: none;
+}
+
+.pop-image-wrapper {
+  display: none;
+}
+
+.pop-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 @media (min-width: 992px) {
   .nav-bar-list {
     display: flex;
@@ -697,4 +842,103 @@ form {
   .menu-nav {
     display: none;
   }
+
+  .button-pop4 {
+    display: none;
+  }
+
+  .button-pop5 {
+    display: block;
+    font-size: 10px;
+    font-family: "Inter", serif;
+    padding: 5px 8px;
+    font-weight: bold;
+    color: black;
+    background-color: #ebf0ee;
+    border-style: none;
+    border-radius: 5px;
+    height: 32px;
+    margin-top: -13px;
+  }
+
+  .button-mo1 {
+    display: none;
+  }
+
+  .button-mo2 {
+    width: 112px;
+    height: 37px;
+    background-color: #36b37f;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: "Inter", serif;
+  }
+
+  .pop-button-2h {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .pop-close {
+    width: 36px;
+    height: 36px;
+    float: right;
+    display: block;
+    padding-bottom: 5px;
+    margin-bottom: 9px;
+  }
+
+  .list-pop {
+    margin-left: 0;
+  }
+
+  .pop-image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .pop-img {
+    display: none;
+  }
+
+  #desk-popup {
+    margin-top: -16px;
+  }
+
+  #desktop-popup {
+    margin: -16px 183px;
+  }
+
+  .project-image {
+    height: 350px;
+  }
+
+  .pop-heading h4 {
+    width: 70%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    margin: 5px 0 0;
+  }
+
+  .button-pop {
+    padding: 0;
+    margin-left: -29px;
+  }
+}
+
+.pop-paragraph {
+  margin: 0;
+}
+
+.pop-button button {
+  margin-bottom: 0;
 }
