@@ -642,7 +642,9 @@ form {
   width: 13px;
   margin-left: 5px;
 }
-
+#error-msg{
+    color: red;
+}
 @media (min-width: 992px) {
   .nav-bar-list {
     display: flex;

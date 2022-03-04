@@ -170,5 +170,14 @@ function closePopup() {
   const unpopElement = document.getElementById('desk-popup');
   unpopElement.parentNode.removeChild(unpopElement);
 }
-
-document.forms[0].addEventListener('submit', (event) => {});
+const contactForm = document.getElementById('contact-form');
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  document.getElementById('error-msg').innerText = '';
+  const email = document.getElementById('form-email').value;
+  if (email !== email.toLowerCase()) {
+    document.getElementById('error-msg').innerText = 'Email Address should be in Lower case';
+  } else {
+    document.forms[0].submit();
+  }
+});
