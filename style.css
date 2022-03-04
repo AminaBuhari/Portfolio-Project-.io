@@ -660,8 +660,6 @@ form {
   width: 100%;
 }
 
-
-
 @media (min-width: 992px) {
   .nav-bar-list {
     display: flex;
@@ -931,8 +929,6 @@ form {
     margin: 5px 0 0;
   }
 
-
-
   .button-pop {
     padding: 0;
     margin-left: -29px;
@@ -946,4 +942,3 @@ form {
 .pop-button button {
   margin-bottom: 0;
 }
-
