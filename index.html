@@ -1,367 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amina Portfolio Project</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawsome.com/releases/v5.13.0/css/all.css"
+    />
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-29VQ5BWQNZ"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-29VQ5BWQNZ"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag("config", "G-29VQ5BWQNZ");
+      gtag("config", "G-29VQ5BWQNZ");
     </script>
-</head>
+  </head>
 
-<body>
-    <header>
-        <nav class="menu-bar">
-            <a class="menu-icon" href="">Welcome</a>
-            <a class="menu-icon1" title="hamburger" href=""><i class="fas fa-bars"></i
-        ></a>
-        </nav>
-        <ul class="nav-bar-list">
-            <li><a class="nav-list" href="#">Portfolio</a></li>
-            <li><a class="nav-list" href="#">About</a></li>
-            <li><a class="nav-list" href="#">Contact</a></li>
+  <body>
+    <header class="header">
+      <nav class="menu-nav">
+        <a class="menu-icon" href="">Welcome</a>
+        <button class="menu">
+          <img src="images/Union.png" class="hamburger-menu" alt="hamburger" />
+          <img src="images/Icon.png" class="close-menu" alt="close" />
+        </button>
+        <ul class="nav-mobile">
+          <li class="nav-mobile-list-parent">
+            <a class="nav-mobile-list" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-mobile-list-parent">
+            <a class="nav-mobile-list" href="#about">About</a>
+          </li>
+          <li class="nav-mobile-list-parent">
+            <a class="nav-mobile-list" href="#contact">Contact</a>
+          </li>
         </ul>
+      </nav>
     </header>
+
+    <!--desktop menu-->
+    <ul class="nav-bar-list">
+      <li><a class="nav-list" href="#">Portfolio</a></li>
+      <li><a class="nav-list" href="#">About</a></li>
+      <li><a class="nav-list" href="#">Contact</a></li>
+    </ul>
+
     <section>
-        <div class="container">
-            <div class="heading-container">
-                <h1 class="heading">Hey there. I’m Mariane</h1>
-                <h2 class="heading-2">I'm a software developer</h2>
-            </div>
-            <p class="text">
-                I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <ul class="icons">
-                <li>
-                    <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="images/linkedinicon.svg" alt="Linkedin" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="images/Micon.png" alt="M-icon" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="images/githubicon.svg" alt="Git hub" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="images/angel.svg" alt="Angel list" /></a>
-                </li>
-            </ul>
-            <img src="images/button.png" alt="Button down" />
+      <div class="container">
+        <div class="heading-container">
+          <h1 class="heading">Hey there. I’m Mariane</h1>
+          <h2 class="heading-2">I'm a software developer</h2>
         </div>
-    </section>
-
-    <section class="work">
-        <ul class="listing">
-            <li class="header-2">
-                <h3 class="item-1">My Recent Works</h3>
-            </li>
-            <li class="item-2">
-                <img class="work-image" src="images/Indicator.png" alt="" />
-            </li>
+        <p class="text">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+        <ul class="icons">
+          <li>
+            <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/linkedinicon.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/Micon.png" alt="M-icon" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/githubicon.svg" alt="Git hub" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/angel.svg" alt="Angel list" /></a>
+          </li>
         </ul>
-        <div class="first-class">
-            <div class="container-3">
-                <div class="container-4">
-                    <div class="container-5">
-                        <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
-                    </div>
-                    <div>
-                        <ul class="button-1">
-                            <li class="list">
-                                <button class="button-1h">Ruby on rails</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">css</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">Javascript</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">html</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="buttons-2">
-                        <button class="button-2h">See Project</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-3">
-                <div class="container-4">
-                    <div class="container-5">
-                        <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
-                    </div>
-                    <div>
-                        <ul class="button-1">
-                            <li class="list">
-                                <button class="button-1h">Ruby on rails</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">css</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">Javascript</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">html</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="buttons-2">
-                        <button class="button-2h">See Project</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-3">
-                <div class="container-4">
-                    <div class="container-5">
-                        <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
-                    </div>
-                    <div>
-                        <ul class="button-1">
-                            <li class="list">
-                                <button class="button-1h">Ruby on rails</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">css</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">Javascript</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">html</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="buttons-2">
-                        <button class="button-2h">See Project</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-3">
-                <div class="container-4">
-                    <div class="container-5">
-                        <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
-                    </div>
-                    <div>
-                        <ul class="button-1">
-                            <li class="list">
-                                <button class="button-1h">Ruby on rails</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">css</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">Javascript</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">html</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="buttons-2">
-                        <button class="button-2h">See Project</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-3">
-                <div class="container-4">
-                    <div class="container-5">
-                        <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
-                    </div>
-                    <div>
-                        <ul class="button-1">
-                            <li class="list">
-                                <button class="button-1h">Ruby on rails</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">css</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">Javascript</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">html</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="buttons-2">
-                        <button class="button-2h">See Project</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-3">
-                <div class="container-4">
-                    <div class="container-5">
-                        <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
-                    </div>
-                    <div>
-                        <ul class="button-1">
-                            <li class="list">
-                                <button class="button-1h">Ruby on rails</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">css</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">Javascript</button>
-                            </li>
-                            <li class="list">
-                                <button class="button-1h">html</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="buttons-2">
-                        <button class="button-2h">See Project</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <img src="images/button.png" alt="Button down" />
+      </div>
     </section>
 
-    <section class="about">
-        <ul class="about-list">
-            <li class="container-5" id="container-5">
-                <h5 class="header-5">About me</h5>
-                <p class="paragraph-2">
-                    I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                </p>
-                <button class="button-3h">Get My Resume</button>
-            </li>
-        </ul>
-        <div class="second-class">
-            <div class="container-6">
-                <div class="image-container">
-                    <img class="image-1" src="images/Icons.png" alt="icons" />
-                </div>
-                <p class="paragraph-3">Languages</p>
-                <div>
-                    <ul class="button-4">
-                        <li class="list">
-                            <button class="button-4h">Javascript</button>
-                        </li>
-                        <li class="list"><button class="button-4h">Ruby</button></li>
-                        <li class="list">
-                            <button class="button-4h">Html</button>
-                        </li>
-                        <li class="list">
-                            <button class="button-4h">Css</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container-6">
-                <div class="image-container">
-                    <img class="image-1" src="images/Icons(1).png" alt="icons" />
-                </div>
-                <p class="paragraph-3">Frameworks</p>
-                <div>
-                    <ul class="button-5">
-                        <li class="list">
-                            <button class="button-4h">Bootstrap</button>
-                        </li>
-                        <li class="list">
-                            <button class="button-4h">Ruby on rails</button>
-                        </li>
-                        <li class="list">
-                            <button class="button-4h">RSpec</button>
-                        </li>
-                        <li class="list">
-                            <button class="button-4h">Capybara</button>
-                        </li>
-                        <li class="list">
-                            <button class="button-4h">Selenium</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container-6">
-                <div class="image-container">
-                    <img class="image-1" src="images/Icons(2).png" alt="icons" />
-                </div>
-                <p class="paragraph-3">Skills</p>
-                <div>
-                    <ul class="button-5">
-                        <li class="list">
-                            <button class="button-4h">Codekit</button>
-                        </li>
-                        <li class="list">
-                            <button class="button-4h">Github</button>
-                        </li>
-                        <li class="list">
-                            <button class="button-4h">Codepen</button>
-                        </li>
-                        <li class="list"><button class="button-4h">Gitlab</button></li>
-                        <li class="list">
-                            <button class="button-4h">Terminal</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer id="contact-form">
-        <div class="form-div">
-            <div id="header-6">
-                <h3>
-                    I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-                </h3>
-            </div>
-            <div class="form-1">
-                <form action="https://formspree.io/f/xvolakyp" method="POST">
-                    <input class="form-input" type="text" name="fullname" placeholder="Full name" required maxlength="30" />
-                    <input class="form-input" type="email" name="email" placeholder="Email address" required />
-                    <textarea id="text-area" name="message" required maxlength="500" placeholder="Enter text area"></textarea>
-                    <button class="button-h" type="submit">Get in touch</button>
-                </form>
-            </div>
-            <div class="icons-1">
-                <ul class="icons">
-                    <li>
-                        <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/linkedinicon.svg" alt="Linkedin" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/Micon.png" alt="M-icon" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/githubicon.svg" alt="Git hub" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/angel.svg" alt="Angel list" /></a>
-                    </li>
-                </ul>
+    <section class="work" id="portfolio">
+      <ul class="listing">
+        <li class="header-2">
+          <h3 class="item-1">My Recent Works</h3>
+        </li>
+        <li class="item-2">
+          <img class="work-image" src="images/Indicator.png" alt="" />
+        </li>
+      </ul>
+      <div class="first-class">
+        <div class="container-3">
+          <div class="container-4">
+            <div class="container-5">
+              <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
             </div>
             <div>
-                <p class="paragraph-6">myemailhere@email.com</p>
+              <ul class="button-1">
+                <li class="list">
+                  <button class="button-1h">Ruby on rails</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">css</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">Javascript</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">html</button>
+                </li>
+              </ul>
             </div>
-            <div id="blank_bottom">
-                <img id="indicator_last" src="./images/indicator_last.svg" alt="last indicator" />
+            <div class="buttons-2">
+              <button class="button-2h">See Project</button>
             </div>
+          </div>
         </div>
-    </footer>
-</body>
 
+        <div class="container-3">
+          <div class="container-4">
+            <div class="container-5">
+              <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
+            </div>
+            <div>
+              <ul class="button-1">
+                <li class="list">
+                  <button class="button-1h">Ruby on rails</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">css</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">Javascript</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">html</button>
+                </li>
+              </ul>
+            </div>
+            <div class="buttons-2">
+              <button class="button-2h">See Project</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-3">
+          <div class="container-4">
+            <div class="container-5">
+              <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
+            </div>
+            <div>
+              <ul class="button-1">
+                <li class="list">
+                  <button class="button-1h">Ruby on rails</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">css</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">Javascript</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">html</button>
+                </li>
+              </ul>
+            </div>
+            <div class="buttons-2">
+              <button class="button-2h">See Project</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-3">
+          <div class="container-4">
+            <div class="container-5">
+              <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
+            </div>
+            <div>
+              <ul class="button-1">
+                <li class="list">
+                  <button class="button-1h">Ruby on rails</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">css</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">Javascript</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">html</button>
+                </li>
+              </ul>
+            </div>
+            <div class="buttons-2">
+              <button class="button-2h">See Project</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-3">
+          <div class="container-4">
+            <div class="container-5">
+              <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
+            </div>
+            <div>
+              <ul class="button-1">
+                <li class="list">
+                  <button class="button-1h">Ruby on rails</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">css</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">Javascript</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">html</button>
+                </li>
+              </ul>
+            </div>
+            <div class="buttons-2">
+              <button class="button-2h">See Project</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-3">
+          <div class="container-4">
+            <div class="container-5">
+              <h4 class="header-3">Multi-Post Stories Gain+Glory</h4>
+            </div>
+            <div>
+              <ul class="button-1">
+                <li class="list">
+                  <button class="button-1h">Ruby on rails</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">css</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">Javascript</button>
+                </li>
+                <li class="list">
+                  <button class="button-1h">html</button>
+                </li>
+              </ul>
+            </div>
+            <div class="buttons-2">
+              <button class="button-2h">See Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <ul class="about-list">
+        <li class="container-5" id="container-5">
+          <h5 class="header-5">About me</h5>
+          <p class="paragraph-2">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+          <button class="button-3h">Get My Resume</button>
+        </li>
+      </ul>
+      <div class="second-class">
+        <div class="container-6">
+          <div class="image-container">
+            <img class="image-1" src="images/Icons.png" alt="icons" />
+          </div>
+          <p class="paragraph-3">Languages</p>
+          <div>
+            <ul class="button-4">
+              <li class="list">
+                <button class="button-4h">Javascript</button>
+              </li>
+              <li class="list"><button class="button-4h">Ruby</button></li>
+              <li class="list">
+                <button class="button-4h">Html</button>
+              </li>
+              <li class="list">
+                <button class="button-4h">Css</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container-6">
+          <div class="image-container">
+            <img class="image-1" src="images/Icons(1).png" alt="icons" />
+          </div>
+          <p class="paragraph-3">Frameworks</p>
+          <div>
+            <ul class="button-5">
+              <li class="list">
+                <button class="button-4h">Bootstrap</button>
+              </li>
+              <li class="list">
+                <button class="button-4h">Ruby on rails</button>
+              </li>
+              <li class="list">
+                <button class="button-4h">RSpec</button>
+              </li>
+              <li class="list">
+                <button class="button-4h">Capybara</button>
+              </li>
+              <li class="list">
+                <button class="button-4h">Selenium</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container-6">
+          <div class="image-container">
+            <img class="image-1" src="images/Icons(2).png" alt="icons" />
+          </div>
+          <p class="paragraph-3">Skills</p>
+          <div>
+            <ul class="button-5">
+              <li class="list">
+                <button class="button-4h">Codekit</button>
+              </li>
+              <li class="list">
+                <button class="button-4h">Github</button>
+              </li>
+              <li class="list">
+                <button class="button-4h">Codepen</button>
+              </li>
+              <li class="list"><button class="button-4h">Gitlab</button></li>
+              <li class="list">
+                <button class="button-4h">Terminal</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact-form">
+      <div class="form-div" id="contact">
+        <div id="header-6">
+          <h3>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h3>
+        </div>
+        <div class="form-1">
+          <form action="https://formspree.io/f/xvolakyp" method="POST">
+            <input
+              class="form-input"
+              type="text"
+              name="fullname"
+              placeholder="Full name"
+              required
+              maxlength="30"
+            />
+            <input
+              class="form-input"
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+            <textarea
+              id="text-area"
+              name="message"
+              required
+              maxlength="500"
+              placeholder="Enter text area"
+            ></textarea>
+            <button class="button-h" type="submit">Get in touch</button>
+          </form>
+        </div>
+        <div class="icons-1">
+          <ul class="icons">
+            <li>
+              <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/linkedinicon.svg" alt="Linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/Micon.png" alt="M-icon" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/githubicon.svg" alt="Git hub" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/angel.svg" alt="Angel list" /></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="paragraph-6">myemailhere@email.com</p>
+        </div>
+        <div id="blank_bottom">
+          <img
+            id="indicator_last"
+            src="./images/indicator_last.svg"
+            alt="last indicator"
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
