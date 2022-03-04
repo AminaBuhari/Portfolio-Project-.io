@@ -660,6 +660,10 @@ form {
   width: 100%;
 }
 
+#error-msg {
+  color: red;
+}
+
 @media (min-width: 992px) {
   .nav-bar-list {
     display: flex;
