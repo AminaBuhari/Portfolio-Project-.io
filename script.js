@@ -24,7 +24,7 @@ const projects = [
     name: 'Multi-Post Stories Gain+Glory',
     title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: 'images/Snapshoot desktop.png',
+    featured_image: ['images/Snapshoot desktop.png', 'images/Snapshoot Portfolio.png'],
     technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
     live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
     source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
@@ -34,7 +34,7 @@ const projects = [
     name: 'Multi-Post Stories Gain+Glory',
     title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: 'images/Snapshoot desktop.png',
+    featured_image: ['images/Snapshoot desktop.png', 'images/Snapshoot Portfolio.png'],
     technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
     live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
     source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
@@ -44,7 +44,7 @@ const projects = [
     name: 'Multi-Post Stories Gain+Glory',
     title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: 'images/Snapshoot desktop.png',
+    featured_image: ['images/Snapshoot desktop.png', 'images/Snapshoot Portfolio.png'],
     technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
     live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
     source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
@@ -54,7 +54,7 @@ const projects = [
     name: 'Multi-Post Stories Gain+Glory',
     title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: 'images/Snapshoot desktop.png',
+    featured_image: ['images/Snapshoot desktop.png', 'images/Snapshoot Portfolio.png'],
     technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
     live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
     source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
@@ -64,7 +64,7 @@ const projects = [
     name: 'Multi-Post Stories Gain+Glory',
     title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: 'images/Snapshoot desktop.png',
+    featured_image: ['images/Snapshoot desktop.png', 'images/Snapshoot Portfolio.png'],
     technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
     live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
     source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
@@ -74,7 +74,7 @@ const projects = [
     name: 'Multi-Post Stories Gain+Glory',
     title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: 'images/Snapshoot desktop.png',
+    featured_image: ['images/Snapshoot desktop.png', 'images/Snapshoot Portfolio.png'],
     technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
     live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
     source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
@@ -110,9 +110,11 @@ function showPopup(projectId) {
   <div id="desktop-popup">
      <div> <img src="images/Disabled.png" alt="Disabled" class="pop-close" onclick = "closePopup()" /></div>
       <div class="pop-image-wrapper">
-          <img src="${project.featured_image}" alt="snapshoot" class="project-image" />
+          <img src="${project.featured_image[0]}" alt="snapshoot" class="project-image" />
       </div>
-
+      <div class="pop-img">
+      <img src="${project.featured_image[1]}" alt="snapshoot-mobile" class="project-image" />
+      </div>
       <div class="pop-heading">
           <h4 class="paragraph-pop">${project.title}</h4>
           <div class="pop-button-2h">
