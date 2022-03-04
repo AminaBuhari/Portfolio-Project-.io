@@ -18,6 +18,7 @@ navMobileList.forEach((elem) => {
   elem.addEventListener('click', toggler);
 });
 
+
 const projects = [
   {
     id: 1,
@@ -170,14 +171,47 @@ function closePopup() {
   const unpopElement = document.getElementById('desk-popup');
   unpopElement.parentNode.removeChild(unpopElement);
 }
+
+// Local Storage
 const contactForm = document.getElementById('contact-form-validate');
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
   document.getElementById('error-msg').innerText = '';
   const email = document.getElementById('form-email').value;
+  const formData = {
+    name: document.getElementById("fullname").value,
+    email: email,
+    message: document.getElementById("text-area").value,
+  }
+  localStorage.setItem("key",JSON.stringify(formData))
+  
   if (email !== email.toLowerCase()) {
     document.getElementById('error-msg').innerText = 'Email Address should be in Lower case';
   } else {
     document.forms[0].submit();
+    localStorage.clear();
   }
 });
+
+// const email = document.getElementById("form-email");
+//  email.addEventListener('input', (event) => {
+//     const formemail = email.value;
+//     localStorage.setItem("emailkey", formemail);
+// });
+
+function prefill(){
+  const formData = JSON.parse( localStorage.getItem("key"));
+  if(formData !== null){
+    document.getElementById('fullname').value = formData.name;
+    document.getElementById('form-email').value = formData.email;
+    document.getElementById('text-area').value = formData.message;
+  } else{
+    document.getElementById('fullname').value = "";
+    document.getElementById('form-email').value = "";
+    document.getElementById('text-area').value = "";
+  }
+  // email.value=localStorage.getItem("emailkey");
+}
+
+prefill();
+
