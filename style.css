@@ -599,7 +599,6 @@ form {
   margin: -10px 0 -3px;
 }
 
-
 .pop-heading {
   display: flex;
   justify-content: space-between;
@@ -619,17 +618,17 @@ form {
 }
 
 .button-mo1 {
-	width: 132px;
-	margin-top: 28px;
-	height: 40px;
-	background-color: #36b37f;
-	border-style: none;
-	color: white;
-	border-radius: 5px;
-	padding: 12px;
-	font-size: 14px;
-	margin-bottom: 30px;
-	text-align: center;
+  width: 132px;
+  margin-top: 28px;
+  height: 40px;
+  background-color: #36b37f;
+  border-style: none;
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .pop-button-3h {
@@ -642,26 +641,24 @@ form {
 }
 
 .pop-icon {
-	width: 13px;
-	margin-left: 5px;
-	margin-bottom: -2px;
+  width: 13px;
+  margin-left: 5px;
+  margin-bottom: -2px;
 }
 
 .pop-close {
-    display: none;
+  display: none;
 }
 
 .pop-image-wrapper {
-    display: none
+  display: none;
 }
 
 .pop-img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
-  
-  
 
 
 
@@ -862,7 +859,7 @@ form {
     background-color: #ebf0ee;
     border-style: none;
     border-radius: 5px;
-    height: 32px;;
+    height: 32px;
     margin-top: -13px;
   }
 
@@ -879,11 +876,10 @@ form {
     border-radius: 5px;
     padding: 12px;
     font-size: 12px;
-    margin-bottom: 5px 0 0;
     text-align: center;
     margin-top: 5px;
-    font-family: "Inter",serif;
-}
+    font-family: "Inter", serif;
+  }
 
   .pop-button-2h {
     display: flex;
@@ -905,45 +901,43 @@ form {
   }
 
   .pop-image-wrapper {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 
-  .pop-img{
-      display: none;
-    }
+  .pop-img {
+    display: none;
+  }
 
-    #desk-popup{
-        margin-top: -16px;
-    }
+  #desk-popup {
+    margin-top: -16px;
+  }
 
-    #desktop-popup {
-        margin: -16px 183px;
-    }
+  #desktop-popup {
+    margin: -16px 183px;
+  }
 
-    .project-image {
-        height: 350px;
-    }
+  .project-image {
+    height: 350px;
+  }
 
-    .pop-heading h4 {
-        width: 70%;
-        font-family: "Inter", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 19px;
-        margin: 5px 0 0;
-    }
+  .pop-heading h4 {
+    width: 70%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    margin: 5px 0 0;
+  }
 
-    
 
-    .button-pop {
-        padding: 0;
-        margin-left: -29px;
-    }
 
+  .button-pop {
+    padding: 0;
+    margin-left: -29px;
+  }
 }
-
 
 .pop-paragraph {
   margin: 0;
@@ -952,4 +946,4 @@ form {
 .pop-button button {
   margin-bottom: 0;
 }
-  
+
