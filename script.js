@@ -170,7 +170,7 @@ function closePopup() {
   const unpopElement = document.getElementById('desk-popup');
   unpopElement.parentNode.removeChild(unpopElement);
 }
-const contactForm = document.getElementById('contact-form');
+const contactForm = document.getElementById('contact-form-validate');
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
   document.getElementById('error-msg').innerText = '';
