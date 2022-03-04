@@ -1,5 +1,4 @@
-/* MOBILE MENU */
-
+/* eslint-disable no-unused-vars */
 const navbar = document.querySelector('.menu-nav');
 const openbtn = document.querySelector('.hamburger-menu');
 const closebtn = document.querySelector('.close-menu');
@@ -17,71 +16,73 @@ function toggler() {
 toggleBtn.addEventListener('click', toggler);
 navMobileList.forEach((elem) => {
   elem.addEventListener('click', toggler);
-})
-
-/* POPUP CARDS */
+});
 
 const projects = [
   {
     id: 1,
     name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: "images/Snapshoot desktop.png",
-    technologies: ["Ruby on rails", "css", "javascript", "html"],
-    live: "https://aminabuhari.github.io/Portfolio-Project-.io/",
-    source: "https://github.com/AminaBuhari/Portfolio-Project-.io",
+    featured_image: 'images/Snapshoot desktop.png',
+    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
+    source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
   },
   {
     id: 2,
     name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: "images/Snapshoot desktop.png",
-    technologies: ["Ruby on rails", "css", "javascript", "html"],
-    live: "https://aminabuhari.github.io/Portfolio-Project-.io/",
-    source: "https://github.com/AminaBuhari/Portfolio-Project-.io",
+    featured_image: 'images/Snapshoot desktop.png',
+    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
+    source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
   },
   {
     id: 3,
     name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: "images/Snapshoot desktop.png",
-    technologies: ["Ruby on rails", "css", "javascript", "html"],
-    live: "https://aminabuhari.github.io/Portfolio-Project-.io/",
-    source: "https://github.com/AminaBuhari/Portfolio-Project-.io",
+    featured_image: 'images/Snapshoot desktop.png',
+    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
+    source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
   },
   {
     id: 4,
     name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: "images/Snapshoot desktop.png",
-    technologies: ["Ruby on rails", "css", "javascript", "html"],
-    live: "https://aminabuhari.github.io/Portfolio-Project-.io/",
-    source: "https://github.com/AminaBuhari/Portfolio-Project-.io",
+    featured_image: 'images/Snapshoot desktop.png',
+    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
+    source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
   },
   {
     id: 5,
     name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: "images/Snapshoot desktop.png",
-    technologies: ["Ruby on rails", "css", "javascript", "html"],
-    live: "https://aminabuhari.github.io/Portfolio-Project-.io/",
-    source: "https://github.com/AminaBuhari/Portfolio-Project-.io",
+    featured_image: 'images/Snapshoot desktop.png',
+    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
+    source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
   },
   {
     id: 6,
     name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of component',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featured_image: "images/Snapshoot desktop.png",
-    technologies: ["Ruby on rails", "css", "javascript", "html"],
-    live: "https://aminabuhari.github.io/Portfolio-Project-.io/",
-    source: "https://github.com/AminaBuhari/Portfolio-Project-.io",
+    featured_image: 'images/Snapshoot desktop.png',
+    technologies: ['Ruby on rails', 'css', 'javascript', 'html'],
+    live: 'https://aminabuhari.github.io/Portfolio-Project-.io/',
+    source: 'https://github.com/AminaBuhari/Portfolio-Project-.io',
   },
-]
-
-
+];
 
 window.onload = () => {
-  const newContainer = document.getElementById("class");
+  const newContainer = document.getElementById('class');
   projects.forEach((project) => {
     const cardsHTML = `<div class="container-3">
       <div class="container-4" id="${project.id}">
@@ -98,13 +99,13 @@ window.onload = () => {
         </div>
       </div>
       `;
-    newContainer.insertAdjacentHTML('beforeend', cardsHTML)
-  })
+    newContainer.insertAdjacentHTML('beforeend', cardsHTML);
+  });
 };
 
 function showPopup(projectId) {
-  const bodyElement = document.querySelector("body")
-  const project = projects.find((pop)=>pop.id === projectId)
+  const bodyElement = document.querySelector('body');
+  const project = projects.find((pop) => pop.id === projectId);
   const popupHTML = ` <section id="desk-popup">
   <div id="desktop-popup">
      <div> <img src="images/Disabled.png" alt="Disabled" class="pop-close" onclick = "closePopup()" /></div>
@@ -113,35 +114,61 @@ function showPopup(projectId) {
       </div>
 
       <div class="pop-heading">
-          <h4 class="paragraph-pop">${project.name}</h4>
-          <div class="pop-button">
-              <a href="${project.live}" target = "_blank"><button class="button-3h">
-                  See Live<img src="images/light.png" alt="live-icon" />
+          <h4 class="paragraph-pop">${project.title}</h4>
+          <div class="pop-button-2h">
+              <a href="${project.live}"><button class="button-mo2">
+                  See Live<img src="images/light.png" alt="live-icon" class="pop-icon" />
               </button></a>
-              <a href="${project.source}" target = "_blank"><button class="button-3h">
+              <a href="${project.source}"><button class="button-mo2">
                   See Source
-                  <img src="images/live.png" alt="git-hub icon" />
+                  <img src="images/live.png" alt="git-hub icon" class="pop-icon"/>
               </button></a>
           </div>
       </div>
        <ul class="button-pop">
               <li class="list">
-                  <button class="button-4h">Ruby on Rails</button>
+                  <button class="button-pop4">Ruby on Rails</button>
               </li>
-              <li class="list"><button class="button-4h">css</button></li>
+              <li class="list"><button class="button-pop4">css</button></li>
               <li class="list">
-                  <button class="button-4h">Javascript</button>
+                  <button class="button-pop4">Javascript</button>
+              </li>
+              <li class="list">
+                  <button class="button-pop5">codekit</button>
+              </li>
+              <li class="list"><button class="button-pop5">Github</button></li>
+              <li class="list">
+                  <button class="button-pop5">Javascript</button>
+              </li>
+              <li class="list">
+                  <button class="button-pop5">Bootstrap</button>
+              </li>
+              <li class="list"><button class="button-pop5">Terminal</button></li>
+              <li class="list">
+                  <button class="button-pop5">codepen</button>
               </li>
       </ul>
       <p class="paragraph-2 pop-paragraph">
               ${project.description}
       </p>
+      <div class="pop-button-3h">
+              <a href="${project.live}"><button class="button-mo1">
+                  See Live<img src="images/light.png" alt="live-icon" class="pop-icon" />
+              </button></a>
+              <a href="${project.source}"><button class="button-mo1">
+                  See Source
+                  <img src="images/live.png" alt="git-hub icon" class="pop-icon" />
+              </button></a>
+          </div>
+    
   </div>
-</section>`
+</section>`;
   bodyElement.insertAdjacentHTML('afterbegin', popupHTML);
 }
 
 function closePopup() {
-  const unpopElement = document.getElementById("desk-popup");
+  const unpopElement = document.getElementById('desk-popup');
   unpopElement.parentNode.removeChild(unpopElement);
 }
+
+document.forms[0].addEventListener('submit', (event) => {});

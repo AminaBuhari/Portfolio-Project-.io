@@ -3,11 +3,12 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-
 }
-html{
+
+html {
   margin: 0;
 }
+
 .menu {
   position: fixed;
   z-index: 100;
@@ -528,6 +529,7 @@ form {
 .button-pop {
   display: flex;
   gap: 10px;
+  padding: 0;
 }
 
 .paragraph-pop {
@@ -548,23 +550,42 @@ form {
   gap: 10px;
 }
 
+.button-pop4 {
+  font-size: 11px;
+  font-family: "Inter", serif;
+  padding: 5px 8px;
+  font-weight: bold;
+  color: #36b37e;
+  background-color: black;
+  border-style: none;
+  border-radius: 5px;
+  height: 32px;
+}
+
+.button-pop5 {
+  display: none;
+}
+
 #desk-popup {
   background-color: rgb(229 229 229 / 90%);
   position: fixed;
   padding: 32px 10px;
   height: 100vh;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  z-index: 10;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 150;
   margin-top: -16px;
 }
 
 #desktop-popup {
-  width: 70%;
+  width: 50%;
   background-color: #fff;
   display: flex;
   height: fit-content;
+  justify-content: center;
+  margin: 0 20px;
+  border-radius: 5px;
 
   /* align-items: center; */
   flex-direction: column;
@@ -572,13 +593,12 @@ form {
 }
 
 .project-image {
-  height: auto;
+  height: 350px;
   width: 100%;
 }
 
 .pop-heading {
   display: flex;
-  width: 80%;
   justify-content: space-between;
   align-items: flex-start;
   padding: 8px 0;
@@ -593,6 +613,34 @@ form {
 
   /* line-height: 44px; */
   margin: 0;
+}
+
+.button-mo1 {
+  width: 132px;
+  margin-top: 10px;
+  height: 48px;
+  background-color: #36b37f;
+  border-style: none;
+  color: black;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 17px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pop-button-3h {
+  display: flex;
+  gap: 10px;
+}
+
+.pop-button-2h {
+  display: none;
+}
+
+.pop-icon {
+  width: 13px;
+  margin-left: 5px;
 }
 
 @media (min-width: 992px) {
@@ -777,6 +825,50 @@ form {
   .menu-nav {
     display: none;
   }
+
+  .button-pop4 {
+    display: none;
+  }
+
+  .button-pop5 {
+    display: block;
+    font-size: 11px;
+    font-family: "Inter", serif;
+    padding: 5px 8px;
+    font-weight: bold;
+    color: #36b37e;
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    height: 32px;
+  }
+
+  .button-mo1 {
+    display: none;
+  }
+
+  .button-mo2 {
+    width: 132px;
+    height: 48px;
+    background-color: #36b37f;
+    border-style: none;
+    color: black;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 17px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .pop-button-2h {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .list-pop {
+    margin-left: 0;
+  }
 }
 
 .pop-paragraph {
@@ -792,9 +884,11 @@ form {
   height: 36px;
   float: right;
   display: block;
+  padding-bottom: 5px;
 }
 
 .pop-image-wrapper {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
