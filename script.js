@@ -18,6 +18,7 @@ navMobileList.forEach((elem) => {
   elem.addEventListener('click', toggler);
 });
 
+
 const projects = [
   {
     id: 1,
@@ -172,7 +173,15 @@ function closePopup() {
   const unpopElement = document.getElementById('desk-popup');
   unpopElement.parentNode.removeChild(unpopElement);
 }
+
+const inputEmail = document.getElementById('form-email');
+const inputName = document.getElementById("fullname");
+const inputMessage = document.getElementById("text-area");
 const contactForm = document.getElementById('contact-form-validate');
+
+
+
+// Email validation
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
   document.getElementById('error-msg').innerText = '';
@@ -183,3 +192,41 @@ contactForm.addEventListener('submit', (event) => {
     document.forms[0].submit();
   }
 });
+
+
+//  Local  storage
+function formData() {
+const formData = {
+  name: inputName.value,
+  email: inputEmail.value,
+  message: inputMessage.value,
+};
+
+localStorage.setItem('formData',JSON.stringify(formData))
+
+}
+
+
+function localObject() {
+let name = '';
+let email = '';
+let message = '';
+if (window.localStorage.getItem('formData') === null) {
+  name = '';
+  email = '';
+  message = '';
+} else{
+  ({name, email, message} = JSON.parse(localStorage.getItems('formdata')));
+}
+
+if (name!== null || email !== null || message !== null){
+  inputName.value = name;
+  inputEmail.value = email; 
+  inputMessage.value = message;
+
+}
+}
+document.addEventListener('DOMContentLoad', () => {
+localObject();
+});
+
